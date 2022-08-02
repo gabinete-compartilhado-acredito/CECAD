@@ -1,0 +1,135 @@
+AC:
+Recebe PAB família TOTAL
+Não Sim Sem Resposta
+AC-Acre 41.564 376.376 0 417.940
+TOTAL 41.564 376.376 0 417.940
+AL:
+Recebe PAB família TOTAL
+Não Sim Sem Resposta
+AL-Alagoas 119.227 1.305.110 0 1.424.337
+TOTAL 119.227 1.305.110 0 1.424.337
+AP:
+Recebe PAB família TOTAL
+Não Sim Sem Resposta
+AP-Amapá 56.498 303.133 0 359.631
+TOTAL 56.498 303.133 0 359.631
+AM:
+Recebe PAB família TOTAL
+Não Sim Sem Resposta
+AM-Amazonas 185.317 1.632.821 0 1.818.138
+TOTAL 185.317 1.632.821 0 1.818.138
+BA:
+Recebe PAB família TOTAL
+Não Sim Sem Resposta
+BA-Bahia 652.937 5.785.555 0 6.438.492
+TOTAL 652.937 5.785.555 0 6.438.492
+CE:
+Recebe PAB família TOTAL
+Não Sim Sem Resposta
+CE-Ceará 341.895 3.514.925 0 3.856.820
+TOTAL 341.895 3.514.925 0 3.856.820
+DF:
+Recebe PAB família TOTAL
+Não Sim Sem Resposta
+DF-DistritoFederal 48.237 355.217 0 403.454
+TOTAL 48.237 355.217 0 403.454
+ES:
+Recebe PAB família TOTAL
+Não Sim Sem Resposta
+ES-EspíritoSanto 135.021 719.042 0 854.063
+TOTAL 135.021 719.042 0 854.063
+GO:
+Recebe PAB família TOTAL
+Não Sim Sem Resposta
+GO-Goiás 242.849 1.148.307 0 1.391.156
+TOTAL 242.849 1.148.307 0 1.391.156
+MA:
+Recebe PAB família TOTAL
+Não Sim Sem Resposta
+MA-Maranhão 299.258 3.259.193 0 3.558.451
+TOTAL 299.258 3.259.193 0 3.558.451
+MT:
+Recebe PAB família TOTAL
+Não Sim Sem Resposta
+MT-MatoGrosso 136.377 609.593 0 745.970
+TOTAL 136.377 609.593 0 745.970
+MS:
+Recebe PAB família TOTAL
+Não Sim Sem Resposta
+MS-MatoGrossodoSul 110.338 486.725 0 597.063
+TOTAL 110.338 486.725 0 597.063
+MG:
+Recebe PAB família TOTAL
+Não Sim Sem Resposta
+MG-MinasGerais 612.639 3.800.611 0 4.413.250
+TOTAL 612.639 3.800.611 0 4.413.250
+PA:
+Recebe PAB família TOTAL
+Não Sim Sem Resposta
+PA-Pará 458.123 3.467.861 0 3.925.984
+TOTAL 458.123 3.467.861 0 3.925.984
+PB:
+Recebe PAB família TOTAL
+Não Sim Sem Resposta
+PB-Paraíba 160.152 1.616.479 0 1.776.631
+TOTAL 160.152 1.616.479 0 1.776.631
+PR:
+Recebe PAB família TOTAL
+Não Sim Sem Resposta
+PR-Paraná 313.701 1.380.169 0 1.693.870
+TOTAL 313.701 1.380.169 0 1.693.870
+PE:
+Recebe PAB família TOTAL
+Não Sim Sem Resposta
+PE-Pernambuco 471.051 3.609.464 0 4.080.515
+TOTAL 471.051 3.609.464 0 4.080.515
+PI:
+Recebe PAB família TOTAL
+Não Sim Sem Resposta
+PI-Piauí 141.915 1.454.626 0 1.596.541
+TOTAL 141.915 1.454.626 0 1.596.541
+RJ:
+Recebe PAB família TOTAL
+Não Sim Sem Resposta
+RJ-RiodeJaneiro 725.773 3.297.004 0 4.022.777
+TOTAL 725.773 3.297.004 0 4.022.777
+RN:
+Recebe PAB família TOTAL
+Não Sim Sem Resposta
+RN-RioGrandedoNorte 135.470 1.170.344 0 1.305.814
+TOTAL 135.470 1.170.344 0 1.305.814
+RS:
+Recebe PAB família TOTAL
+Não Sim Sem Resposta
+RS-RioGrandedoSul 263.623 1.314.894 0 1.578.517
+TOTAL 263.623 1.314.894 0 1.578.517
+RO:
+Recebe PAB família TOTAL
+Não Sim Sem Resposta
+RO-Rondônia 65.109 309.315 0 374.424
+TOTAL 65.109 309.315 0 374.424
+RR -:
+Recebe PAB família TOTAL
+Não Sim Sem Resposta
+RR-Roraima 37.975 186.966 0 224.941
+TOTAL 37.975 186.966 0 224.941
+SC:
+Recebe PAB família TOTAL
+Não Sim Sem Resposta
+SC-SantaCatarina 130.838 505.532 0 636.370
+TOTAL 130.838 505.532 0 636.370
+SP:
+Recebe PAB família TOTAL
+Não Sim Sem Resposta
+SP-SãoPaulo 1.325.357 5.681.166 0 7.006.523
+TOTAL 1.325.357 5.681.166 0 7.006.523
+SE:
+Recebe PAB família TOTAL
+Não Sim Sem Resposta
+SE-Sergipe 115.181 864.097 0 979.278
+TOTAL 115.181 864.097 0 979.278
+TO:
+Recebe PAB família TOTAL
+Não Sim Sem Resposta
+TO-Tocantins 64.303 432.823 0 497.126
+TOTAL 64.303 432.823 0 497.126

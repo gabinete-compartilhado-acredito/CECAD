@@ -1,0 +1,23 @@
+Painel Demanda Reprimida: Fila do Programa Auxílio Brasil
+
+Primeira Tela - Brasil
+
+Na primeira tela, temos a análise à nível territorial de Brasil. Na parte superior são dispostas informações do tamanho da demanda reprimida no mês mais recente disponibilizado (Abril/2022). A fila atual é de 3,639 milhões de famílias e 6,897 milhões de pessoas que não recebem o benefício mesmo possuindo o perfil para receber. Também é disposto um medidor da proporção de pessoas não beneficiárias sobre a população total pobre e extremamente pobre cadastrada. Para o Brasil, esse valor é de 12,3%.
+Na parte inferior, é exibido um gráfico de barras mostrando a evolução da demanda reprimida para as famílias brasileiras. O período de análise pode ser selecionado pelo observador do painel. De dezembro do ano passado até abril desse ano, a demanda reprimida tem aumentado linearmente, de 2 a 3,6 milhões durante o período. Também é exibido um mapa do Brasil preenchido em azul, ilustrando o nível territorial de análise.
+
+Segunda Tela - Unidades Federativas
+
+Na segunda tela, temos a análise à nível territorial de estados brasileiros. Na parte superior, são dispostas novamente informações do número de famílias e pessoas na fila, agora de forma dinâmica com base na seleção do estado. É disposto um "gŕafico de árvore" com compartimentos rotulados com os nomes dos estados e tamanho proporcional ao valor de pessoas que não recebem o auxílio no estado. 
+Na parte inferior, temos um gráfico de barras ranqueando os estados em função da proporção de pessoas na fila sobre a população cadastrada no perfil. Em primeiro lugar vem Santa Catarina, com 19,75% de proporção, seguido por Paraná (18%); e São Paulo (17,9%). Em último lugar está Roraima, com 3%·
+Também é disposto uma tabela com duas colunas informando o tamanho da fila de famílias em situação de pobreza e de extrema pobreza, segmentadas por estado. São Paulo é o primeiro lugar nas duas filas de pessoas. No canto inferior esquerdo, existe um mapa do Brasil segmentado pelos estados em azul, preenchido em proporção ao nível de demanda reprimida sobre a população cadastrada no perfil.
+
+Terceira Tela - Municípios
+
+Na terceira tela, temos a análise à nível territorial de municípios. Nesta tela, temos uma tabela dinâmica que ranqueia a informação da fila total de famílias por estado. Ao se cliclar em um estado da tabela, ela disponibiliza a opção de detalhamento, em que o nível da análise segue para os municípios do estado selecionado. A partir do nível inferior, temos o ranking da fila total de famílias por cada município. No estado do Rio de Janeiro, por exemplo, a fila é de 361 mil famílias. O município com maior fila é o do Rio de Janeiro, com 112 mil famílias, e o com menor fila é Santa Maria Madalena, com 107 famílias.
+Na parte inferior esquerda é disposto um mapa do brasil, com balões em azul de tamanho proporcional à fila em cada município.
+
+Quarta Tela - Referências
+
+Na quarta e última tela, temos as fontes e a metodologia de coleta dos dados. Os dados foram obtidos através da plataforma de consulta ao CadÚnico, a CECAD 2.0, e do sistema da Secretaria de Avaliação e Gestão da informação (SAGI) do Ministério da Cidadania. São disponibilizados os links dos conjuntos de dados, assim como os filtros para a consulta ao CECAD.
+É informado a data da última coleta de dados (20 de julho de 2022) e uma nota de rodapé explicando que não há dados disponibilizados para quantitativo de pessoas não beneficiárias em forma de série histórica pela SAGI.
+No final, é disposto os nomes dos parlamentares e seus respectivos partidos: Sen. Alessandro Vieira (PSDB -SE), Dep. Felipe Rigoni (União - ES) e Dep. Tabata Amaral (PSB-SP). 

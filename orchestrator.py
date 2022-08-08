@@ -29,3 +29,5 @@ html_to_csv(uf_fam, 'Fam')
 html_to_csv(uf_pessoas, 'Pessoas')
 html_to_csv(html_br_fam, 'Fam')
 html_to_csv(html_br_pes, 'Pessoas')
+
+# Transformação de dados para adequação ao consumo via DataStudio

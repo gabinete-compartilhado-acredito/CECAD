@@ -25,8 +25,16 @@ class CECADScraper:
   
     def quit(self):
         self.driver.quit()
+
+    def get_territorio_referencia(self):
+        '''
+        Gets the territorial reference from the table scraped. For double checking if intended uf scrape was successful.
+        '''
+        xpath = '//*[@id="content"]/h2[1]'
+        territorio = self.driver.find_element_by_xpath(xpath).text
+        return territorio    
     
-    def get_referencia(self):
+    def get_data_referencia(self):
         '''
         Gets the reference date from the webpage.
         '''

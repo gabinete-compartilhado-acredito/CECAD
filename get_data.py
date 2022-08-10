@@ -25,6 +25,15 @@ class CECADScraper:
   
     def quit(self):
         self.driver.quit()
+    
+    def get_referencia(self):
+        '''
+        Gets the reference date from the webpage.
+        '''
+        xpath = '//*[@id="content"]/h4[1]'
+        data_elemento = self.driver.find_element_by_xpath(xpath).text
+        data_referencia = data_elemento.split(':')[1].strip()
+        return data_referencia
 
     def scrape_table(self, filter_dict, output_file=None, write=False):
         '''
@@ -40,6 +49,8 @@ class CECADScraper:
         geo.send_keys(filter_dict['geo'])
         var1 = self.driver.find_element_by_name('var1')
         var1.send_keys(filter_dict['var1'])
+        var2 = self.driver.find_element_by_name('var2')
+        var2.send_keys(filter_dict['var2'])
 
         # select "Com marcação PAB"
         self.driver.find_element_by_xpath('//*[@id="data"]/div/div[1]/div[1]/span[2]/label').click()

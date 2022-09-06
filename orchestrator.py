@@ -1,8 +1,12 @@
 from get_data import CECADScraper
 from clear_data import *
+from transform_data import *
 from Filters.urls_dict import urls
 from Filters.filters_dict import *
 from Utils.calculators import convert_date_pt
+
+update = int(input('Selecione a opção desejada:\n1 - Atualizar dados a partir do CECAD\n2 - Atualizar dados a partir da SAGI\n'))
+assert update in [1,2], 'Opção inválida!'
 
 # Adquirindo dados através do CECAD
 uf_fam = dict()
@@ -38,3 +42,9 @@ html_to_csv(html_br_fam, 'Fam', DATA_REFERENCIA)
 html_to_csv(html_br_pes, 'Pessoas', DATA_REFERENCIA)
 
 # Transformação de dados para adequação ao consumo via DataStudio
+if update == 1:
+        df, uf, br = load_from_persisted()
+        update_from_cecad(uf, br)
+else:
+    df, uf, br = load_and_concat_from_sagi()
+    update_from_cecad(uf, br, df)

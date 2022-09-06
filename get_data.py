@@ -76,12 +76,12 @@ class CECADScraper:
         self.driver.find_element_by_xpath('/html/body/div[3]/div[3]/button[1]').click()
 
         try:
-            table_pessoas = WebDriverWait(self.driver, 25).until(EC.presence_of_element_located((By.XPATH, '//*[@id="content"]/table[2]')))
+            table_pessoas = WebDriverWait(self.driver, 40).until(EC.presence_of_element_located((By.XPATH, '//*[@id="content"]/table[2]')))
         except TimeoutException:
             print('Loading took too much time!')
 
         try:
-            table_fam = WebDriverWait(self.driver, 25).until(EC.presence_of_element_located((By.XPATH, '//*[@id="content"]/table[1]')))
+            table_fam = WebDriverWait(self.driver, 40).until(EC.presence_of_element_located((By.XPATH, '//*[@id="content"]/table[1]')))
         except TimeoutException:
             print('Loading took too much time!')
 

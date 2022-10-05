@@ -61,7 +61,7 @@ class CECADScraper:
         var2.send_keys(filter_dict['var2'])
 
         # select "Com marcação PAB"
-        self.driver.find_element_by_xpath('//*[@id="data"]/div/div[1]/div[1]/span[2]/label').click()
+        self.driver.find_element_by_xpath('//*[@id="rdbSchematab_cad_16072022"]').click()
 
         # open filter menu
         self.driver.find_element_by_xpath('//*[@id="data"]/div/div[2]/div/label').click()
@@ -92,18 +92,19 @@ class CECADScraper:
 
 if __name__=='__main__':
 
-    data = dict()
-    scraper = CECADScraper('Utils/chromedriver', urls['CECAD'])
+    scraper = CECADScraper('Utils/chromedriver', urls['CECAD'], headless=False)
     for estado in estados_brasil:
         filter = {
             'geo': estado,
-            'var1': 'Bloco 1 - Recebe PAB'
+            'var1': 'Bloco 1 - Recebe PAB',
+            'var2': 'Bloco 1 - Faixa da renda familiar per capita'
         }
-        data_collected = scraper.scrape_table(filter)
-        data[estado]=data_collected
-        print(estado, 'concluído')
+        fam, pessoas = scraper.scrape_table(filter)
+        territorio_referencia = scraper.get_territorio_referencia()
 
-    scraper.write_data(data, 'Data/Pessoas/UF_CECAD.txt')
+        print(f'Requerido: {estado}; Concluído: {territorio_referencia}')
+
+    #scraper.write_data(data, 'Data/Pessoas/UF_CECAD.txt')
     
     
     

@@ -97,18 +97,17 @@ def update_from_cecad(uf, br, df=None):
     br_cecad['demanda_reprimida_pessoas'] = br_cecad['pessoas_nao_benef_pobreza'] + br_cecad['pessoas_nao_benef_ext_pobreza']
     
     # ### Adicionando novas linhas referentes à coleta do CECAD ao dataframe da SAGI
-
+    uf.drop(columns=['Estado'], inplace=True)
     uf = pd.concat([uf,uf_cecad]).merge(siglas, left_on='UF', right_on='Sigla', how='left')
     uf.drop(columns=['Sigla'], inplace=True)
 
     br = pd.concat([br,br_cecad])
-
     dt = datetime.date(datetime.now())
     br['ts'] = dt
 
     to_date(br)
     to_date(uf)
-
+    print(uf.columns)
     br.to_parquet('Results/fam_br.parquet')
     uf.to_parquet('Results/fam_uf.parquet')
     if df is not None:
